@@ -1,0 +1,204 @@
+/* настройки шрифтов */
+@font-face {
+    font-family:RubikBold ;
+    src: url("../fonts/Rubik-Bold.ttf");
+}
+@font-face {
+    font-family: RubikLight;
+    src: url("../fonts/Rubik-Light.ttf");
+}
+@font-face {
+    font-family: RubikMedium;
+    src: url("../fonts/Rubik-Medium.ttf");
+}
+
+/* основные настройки */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: RubikLight;
+}
+
+/* навигационная панель */
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}   
+.itemnav{
+    flex: content;
+    margin-left: 4.5vw;
+    margin-top: 2vw;
+}
+.icon{
+    margin: 0.5vw;
+}
+.iconnav{
+    display: flex;
+    margin: 0 auto;
+}
+ul>li>img{
+    margin: 10px;
+}
+
+/* шапка сайта */
+header>*{
+    text-align: center;
+}
+h2{
+    font-size: 4vw;
+    font-family:RubikBold ;
+}
+h2:nth-child(2){
+    color: rgb(92, 212, 212);
+}
+input{
+    background-color: #FF5B35;
+    padding: 1vw 1vw;
+    border-radius: 1vw;
+}
+
+/* вторая сексция */
+#block2{
+    display: flex;
+    padding: 5vw;
+}
+#block2>*{
+    padding: 3vw;
+}
+#block2>article>img{
+    width: 35vw;
+}
+
+/* третья сексция */
+#block3>article>img{
+    height: 18vw;
+    margin: 1vw auto;
+    display: flex;
+}
+#block3{
+    display: flex;
+    padding: 5vw;
+
+}
+#block3>*{
+    margin: 1vw;
+    padding: 1vw ;
+    border-radius: 3vw;
+}
+#block3>article:nth-of-type(1){
+    background-color: #F3E5F4;
+}
+#block3>article:nth-of-type(2){
+    background-color: #DAF3F5;
+}
+#block3>article:nth-of-type(3){
+    background-color: #F6EED1;
+}
+
+/* четвертая сексция */
+#block4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call{
+    margin: 2vw;
+    height: 16vw;
+    width: 15vw;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#call1{
+    font-family: RubikMedium;  
+    text-align: center;
+}
+#call2{
+    font-family: RubikMedium;
+    text-align: center;
+}
+#call3{
+    font-family: RubikMedium;
+    margin-bottom: 5vw;
+    text-align: center;
+}
+#call4{
+    font-family: RubikMedium;
+    text-align: center;
+}
+#call5{
+    font-family: RubikMedium;
+    text-align: center;
+}
+
+/* пятая сексция */
+#block5{
+    height: 63vw;
+}
+.box{
+    margin: 1vw;
+    float: left;
+    background-color: #F0F0EB;
+}
+.box1{
+    margin: 1vw;
+    float: left;
+    text-align: center;
+    margin-top: 15vw;
+}
+#box1{
+    width: 46vw;
+    height: 46vw;  
+}
+#box2{
+    width: 46vw;
+    height: 22vw;
+    border-radius: 3vw 3vw 3vw 12vw;
+    text-align: center;
+}
+#box3 {
+    width: 22vw;
+    height: 22vw; 
+    border-radius: 100vw;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#box4 {
+    width: 22vw;
+    height: 22vw;
+    border-radius: 3vw 3vw 3vw 3vw ;
+    text-align: center;
+}
+
+/*шестая секция*/
+#block6{
+    background: url(../img/photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38vw;
+
+}
+#ras{
+    margin-left: 22vw;
+    padding-top: 10vw;
+}
+
+/*седьмая секция*/
+#block7{
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw;
+}
